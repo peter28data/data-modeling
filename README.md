@@ -6,18 +6,46 @@
 
 ## 📌 Star Schema 
 
-## Denormalized Modeling - Kimball Approach
+## Denormalized Data Modeling 
 
-This project demonstrates Data Modeling in a Star Schema, also known as the Kimball Approach.
+This project demonstrades the Tradeoffs of data modeling techniques such as Star Schema and Snowflake Schema.
 
-The Goal ->  Report the Limitations and Tradeoffs of data modeling techniques to fit different business requirements.
+### The Entity Relationship Diagram (ERD)
+- Data Model below is used to support Business Intelligence tools such as Power BI. 
 
-1. Sources - API, Database, Excel Files
-2. Staging
-3. Star Schema
-4. Analytics Team
 
 ---
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ ORDER_ITEM : contains
+    PRODUCT ||--o{ ORDER_ITEM : included_in
+
+    CUSTOMER {
+        int customer_id PK
+        string name
+        string email
+    }
+
+    ORDER {
+        int order_id PK
+        date order_date
+        int customer_id FK
+    }
+
+    PRODUCT {
+        int product_id PK
+        string product_name
+        decimal price
+    }
+
+    ORDER_ITEM {
+        int order_id FK
+        int product_id FK
+        int quantity
+    }
+```
 
 ## 🎯 High-Level Overview
 
@@ -72,3 +100,4 @@ A Star Schema stores Related Attributes in One Dimension Table
 A Data Mart can be a custom view of Total Orders by Product. A Star Schema produces a source of all the keys in a "Fact Table", allowing for Dimensions to be joined in to Create a Custom View known as a Data Mart. 
 
 ---
+
