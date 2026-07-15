@@ -8,7 +8,8 @@
 
 ## Denormalized Data Modeling 
 
-This project demonstrades the Tradeoffs of data modeling techniques such as Star Schema and Snowflake Schema.
+This project demonstrades Data Modeling and how tables are structured to Fact Tables and Dimension Tables. 
+
 
 ---
 
@@ -20,16 +21,15 @@ This project demonstrades the Tradeoffs of data modeling techniques such as Star
 
 - Connect a One-To-Many Relationship to the Foreign Keys
 
-1. Identify Fact from Business Activity KPI
-2. Determine Dimensions such as Attributes and Decriptions
-3. Create Marts for End Users
+1. Identify Facts from Business Activity Key Performance Indicators
+2. Determine Dimensions from Attributes and Descriptions
 
-### The "Fact Table" 
+### The "Fact Table" Holds the Keys
 Customer ID's are Key points of data and Dimensions, such as Location, provide entry points for grouping Customer Sentiment Analysis by Region. 
 
 
 ### Result: 
-To join the Location data, a "Star Schema" provides efficiency to one "Fact Table" by identifying which part of the Data Tables are Keys, and which part of the Data Tables are complementary to to tell a story.
+Identifying parts of the Data Tables as Keys and complementary data as Dimensions result in operational efficiency when searching for Business Insights.
 
 ---
 
@@ -41,13 +41,13 @@ To join the Location data, a "Star Schema" provides efficiency to one "Fact Tabl
 
 - Granularity & Keys 
 
-Fact Tables are the foundation of the Data Warehouse, therefore, we want to highlight the components of a Fact Table, listed below.
+Fact Tables are the foundation of the Data Warehouse, listed below are components of a Fact Table.
 
 - Sales, Profit, Quanitity, Cost
 
 ### Granularity
 
-In this case the Customer ID, Product ID, and City ID are the lowest points of Granularity that will provide business insights for Customer Sentiment Analysis. 
+In this case the Customer ID, Product ID, and City ID are the lowest points of Granularity that serve as Identifiers for Business Insights such as Customer Sentiment Analysis. 
 
 ---
 
