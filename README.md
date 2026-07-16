@@ -13,7 +13,7 @@ This project demonstrades Data Modeling and how tables are structured to Fact Ta
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/6063786bfcd3f56fa56643b9a883b055f33e7e4b/images/Flowchart%20from%20Provided%20Content.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/3f632d4caebceafa14d82395f3935025a49cbca0/images/flowchart_star_schema_v2.png)
 
 ---
 
@@ -39,7 +39,7 @@ Identifying parts of the Data Tables as Keys and complementary data as Dimension
 
 ## 📌 Identify Facts
 
-- Granularity & Keys 
+- Keys & KPI's
 
 Fact Tables are the foundation of the Data Warehouse, listed below are components of a Fact Table.
 
@@ -47,7 +47,7 @@ Fact Tables are the foundation of the Data Warehouse, listed below are component
 
 ### Granularity
 
-In this case the Customer ID, Product ID, and City ID are the lowest points of Granularity that serve as Identifiers for Business Insights such as Customer Sentiment Analysis. 
+The Customer ID, Product ID, and City ID are the lowest points of Granularity that serve as Identifiers for Business Insights such as Customer Sentiment Analysis. 
 
 ---
 
@@ -58,28 +58,29 @@ In this case the Customer ID, Product ID, and City ID are the lowest points of G
 
 - Attributes or Descriptions
 
-Below is an Example of a Dimension table that are the outer components of the Star Schema, as shown below the Excel Model.
-
-A Star Schema stores Related Attributes in One Dimension Table
-
-- Month, Quarter, Year, Category, Brand, City, State, Name
-
----
+Below is an Example of a Dimension Table; The outer component of the Star Schema, as shown below the Excel Model.
 
 
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/6063786bfcd3f56fa56643b9a883b055f33e7e4b/images/excel_data_model_customer_dim.png)
+### Dimension Table stores Related Attributes in One Table
+
+- Customer ID, Contact Name, City, Email Address
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/6063786bfcd3f56fa56643b9a883b055f33e7e4b/images/Flowchart%20from%20Provided%20Content.png)
+
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/3f632d4caebceafa14d82395f3935025a49cbca0/images/excel_customer_dimension_table_v2.png)
 
 ---
 
-## 📌 Data Mart
+![star schema data model](https://github.com/peter28data/data-modeling/blob/3f632d4caebceafa14d82395f3935025a49cbca0/images/flowchart_star_schema_v2.png)
+
+---
+
+## 📌 Data Modeling 
 
 - Join Facts & Dimensions to Create Custom Views
 
-A Data Mart can be a custom view of Total Orders by Product. A Star Schema produces a source of all the keys in a "Fact Table", allowing for Dimensions to be joined in to Create a Custom View known as a Data Mart. 
+A Star Schema produces a source of all the keys in a "Fact Table", allowing for Dimensions to be joined in to Create a Custom View known as a Data Mart. 
 
 ---
 
@@ -120,4 +121,34 @@ erDiagram
     }
 ```
 
+
+----
+
+## 🤝 Done!  Thank you for Reading
+For Project in SQL, click below:
+
+
+1. SQL Portfolio Link: https://github.com/peter28data/SQL
+
+2) Tableau Portfolio Link: https://github.com/peter28data/Tableau
+
+3) Python Portfolio Link: https://github.com/peter28data/Python
+
+
+
+
+---
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=peter28data&" alt="peter28data" /></p>
+
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+
+
+---
+
+## 📫 How to Connect With Me:
+
+🔗 Email: peter.garayrobles@gmail.com 
 
