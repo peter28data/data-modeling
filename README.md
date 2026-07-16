@@ -13,52 +13,55 @@ This project demonstrades Data Modeling and how tables are structured to Fact Ta
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/3f632d4caebceafa14d82395f3935025a49cbca0/images/flowchart_star_schema_v2.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/flowchart_star_schema_v3.png)
 
 ---
 
 ## 🎯 High-Level Overview
 
-- Connect a One-To-Many Relationship to the Foreign Keys
+- Connect One-To-Many Relationship to the Foreign Keys
 
 1. Identify Facts from Business Activity Key Performance Indicators
-2. Determine Dimensions from Attributes and Descriptions
+2. Determine Dimensions from Attributes
 
 ### The "Fact Table" Holds the Keys
 Customer ID's are Key points of data and Dimensions, such as Location, provide entry points for grouping Customer Sentiment Analysis by Region. 
 
 
-### Result: 
-Identifying parts of the Data Tables as Keys and complementary data as Dimensions result in operational efficiency when searching for Business Insights.
+### Action Item: 
+Identifying parts of the Data Tables as Keys and Complementary Data as Dimensions, produce operational efficiency for reporting and analyzing.
 
 ---
 
-![star schema overview spreadsheet](https://github.com/peter28data/data-modeling/blob/6063786bfcd3f56fa56643b9a883b055f33e7e4b/images/spreadsheet_star_schema.png)
+![star schema overview spreadsheet](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/excel_star_schema_v3.png)
 
 ---
 
 ## 📌 Identify Facts
 
-- Keys & KPI's
-
-Fact Tables are the foundation of the Data Warehouse, listed below are components of a Fact Table.
-
-- Sales, Profit, Quanitity, Cost
-
 ### Granularity
 
 The Customer ID, Product ID, and City ID are the lowest points of Granularity that serve as Identifiers for Business Insights such as Customer Sentiment Analysis. 
 
+- Keys & KPI's
+
+### Fact Tables
+
+The foundation of the Data Warehouse, listed below are components of a Fact Table.
+
+- Customer Key, Gross Amount, Quanitity
+
+
 ---
 
-![Fact Table](https://github.com/peter28data/data-modeling/blob/6063786bfcd3f56fa56643b9a883b055f33e7e4b/images/field_dictionary_fact_table.png)
+![Fact Table](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/excel_fact_field_dictionary_v3.png)
 
 
 ## Dimensions Tables
 
-- Attributes or Descriptions
+- Attributes of Customer Records
 
-Below is an Example of a Dimension Table; The outer component of the Star Schema, as shown below the Excel Model.
+Below is an Example of a Customer Dimension Table; The outer component of the Star Schema, as shown below the Excel Model.
 
 
 ### Dimension Table stores Related Attributes in One Table
@@ -68,11 +71,11 @@ Below is an Example of a Dimension Table; The outer component of the Star Schema
 ---
 
 
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/3f632d4caebceafa14d82395f3935025a49cbca0/images/excel_customer_dimension_table_v2.png)
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/dim_customer_v3.png)
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/3f632d4caebceafa14d82395f3935025a49cbca0/images/flowchart_star_schema_v2.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/flowchart_star_schema_v3.png)
 
 ---
 
