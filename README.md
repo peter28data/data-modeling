@@ -13,7 +13,7 @@ This project demonstrades Data Modeling and how tables are structured to Fact Ta
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/flowchart_star_schema_v3.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/star_schema_v4.png)
 
 ---
 
@@ -33,7 +33,7 @@ Identifying parts of the Data Tables as Keys and Complementary Data as Dimension
 
 ---
 
-![star schema overview spreadsheet](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/excel_star_schema_v3.png)
+![excel star schema](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/excel_star_schema_v4.png)
 
 ---
 
@@ -54,7 +54,7 @@ The foundation of the Data Warehouse, listed below are components of a Fact Tabl
 
 ---
 
-![Fact Table](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/excel_fact_field_dictionary_v3.png)
+![Fact Table](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/excel_fact_field_dictionary_v4.png)
 
 
 ## Dimensions Tables
@@ -71,11 +71,11 @@ Below is an Example of a Customer Dimension Table; The outer component of the St
 ---
 
 
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/dim_customer_v3.png)
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/dim_customer_v4.png)
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/a8aece382210f8cfa0259ed9ee92590eb55347c3/images/v3/flowchart_star_schema_v3.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/star_schema_v4.png)
 
 ---
 
