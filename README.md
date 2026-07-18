@@ -13,7 +13,7 @@ This project demonstrades Data Modeling and how tables are structured to Fact Ta
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/star_schema_v4.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/star_schema_v5.png)
 
 ---
 
@@ -33,7 +33,7 @@ Identifying parts of the Data Tables as Keys and Complementary Data as Dimension
 
 ---
 
-![excel star schema](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/excel_star_schema_v4.png)
+![excel star schema](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/excel_star_schema_v5.png)
 
 ---
 
@@ -54,7 +54,7 @@ The foundation of the Data Warehouse, listed below are components of a Fact Tabl
 
 ---
 
-![Fact Table](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/excel_fact_field_dictionary_v4.png)
+![Fact Table](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/excel_fact_field_dictionary_v5.png)
 
 
 ## Dimensions Tables
@@ -66,16 +66,16 @@ Below is an Example of a Customer Dimension Table; The outer component of the St
 
 ### Dimension Table stores Related Attributes in One Table
 
-- Customer ID, Contact Name, City, Email Address
+- Customer ID, Contact Name, Email Address
 
 ---
 
 
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/dim_customer_v4.png)
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/dim_customer_v5.png)
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/6a0f178acef4b5265b0bc331b0661c99d8dfa458/images/v4/star_schema_v4.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/star_schema_v5.png)
 
 ---
 
@@ -83,7 +83,7 @@ Below is an Example of a Customer Dimension Table; The outer component of the St
 
 - Join Facts & Dimensions to Create Custom Views
 
-A Star Schema produces a source of all the keys in a "Fact Table", allowing for Dimensions to be joined in to Create a Custom View known as a Data Mart. 
+A Star Schema produces a source of all the keys in a "Fact Table", allowing for Dimensions to be joined in to Create a Custom View for Ad Hoc Analysis.
 
 ---
 
