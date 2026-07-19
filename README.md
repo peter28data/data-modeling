@@ -13,7 +13,7 @@ This project demonstrades Data Modeling and how tables are structured to Fact Ta
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/star_schema_v5.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/86c0859175938ff49f8801383bf1f6acd2becc22/images/star_schema_v6.png)
 
 ---
 
