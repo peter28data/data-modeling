@@ -4,11 +4,11 @@
 
 ----
 
-## 📌 Star Schema 
+## 📌 How Tables Are Organized
 
-## Denormalized Data Modeling 
+## Data Modeling 
 
-This project demonstrades Data Modeling and how tables are structured to Fact Tables and Dimension Tables. 
+This project demonstrades Data Modeling to Organize common tables such as Customer Information Table, Product Information Table, Sales and Marketing Campaign Table, Geographic Table. 
 
 
 ---
