@@ -13,7 +13,7 @@ This project demonstrades Data Modeling to Organize common tables such as Custom
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/86c0859175938ff49f8801383bf1f6acd2becc22/images/star_schema_v6.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/star_schema_v7.png)
 
 ---
 
@@ -33,7 +33,7 @@ Identifying parts of the Data Tables as Keys and Complementary Data as Dimension
 
 ---
 
-![excel star schema](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/excel_star_schema_v5.png)
+![excel star schema](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/excel_star_schema_v7.png)
 
 ---
 
@@ -71,11 +71,11 @@ Below is an Example of a Customer Dimension Table; The outer component of the St
 ---
 
 
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/dim_customer_v5.png)
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/dim_customer_v7.png)
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/star_schema_v5.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/star_schema_v7.png)
 
 ---
 
