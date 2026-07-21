@@ -45,12 +45,6 @@ The Customer ID, Product ID, and City ID are the lowest points of Granularity th
 
 - Keys & KPI's
 
-### Fact Tables
-
-The foundation of the Data Warehouse, listed below are components of a Fact Table.
-
-- Customer Key, Gross Amount, Quanitity
-
 
 ---
 
