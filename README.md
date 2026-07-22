@@ -8,81 +8,29 @@
 
 ## Data Modeling 
 
-This project demonstrades Data Modeling to Organize common tables such as Customer Information Table, Product Information Table, Sales and Marketing Campaign Table, Geographic Table. 
+This project demonstrades Data Modeling to Organize Data Tables such as Customer Client Lists, Product Information Table, Sales and Marketing Campaign Table, and Geographic Data. 
 
 
 ---
 
-![star schema data model](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/star_schema_v7.png)
+![star schema data model](https://github.com/peter28data/data-modeling/blob/bcdc2bf0df9c27792507f0ffe920d400abd7c488/images/v8/star_schema_v8.png)
 
 ---
 
 ## 🎯 High-Level Overview
 
-- Connect One-To-Many Relationship to the Foreign Keys
-
-1. Identify Facts from Business Activity Key Performance Indicators
-2. Determine Dimensions from Attributes
-
 ### The "Fact Table" Holds the Keys
 Customer ID's are Key points of data and Dimensions, such as Location, provide entry points for grouping Customer Sentiment Analysis by Region. 
 
-
-### Action Item: 
 Identifying parts of the Data Tables as Keys and Complementary Data as Dimensions, produce operational efficiency for reporting and analyzing.
 
----
 
-![excel star schema](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/excel_star_schema_v7.png)
+### Action Item: 
 
----
+1. Identify Facts from Business Activity Key Performance Indicators
+2. Determine Dimensions from Attributes
+3. Connect One-To-Many Relationship to the Foreign Keys
 
-## 📌 Identify Facts
-
-### Granularity
-
-The Customer ID, Product ID, and City ID are the lowest points of Granularity that serve as Identifiers for Business Insights such as Customer Sentiment Analysis. 
-
-- Keys & KPI's
-
-
----
-
-![Fact Table](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/excel_fact_field_dictionary_v5.png)
-
-
-## Dimensions Tables
-
-- Attributes of Customer Records
-
-Below is an Example of a Customer Dimension Table; The outer component of the Star Schema, as shown below the Excel Model.
-
-
-### Dimension Table stores Related Attributes in One Table
-
-- Customer ID, Contact Name, Email Address
-
----
-
-
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/dim_customer_v7.png)
-
----
-
-![star schema data model](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/star_schema_v7.png)
-
----
-
-## 📌 Data Modeling 
-
-- Join Facts & Dimensions to Create Custom Views
-
-A Star Schema produces a source of all the keys in a "Fact Table", allowing for Dimensions to be joined in to Create a Custom View for Ad Hoc Analysis.
-
----
-
-### The Entity Relationship Diagram (ERD)
-- Data Model below is used to support Business Intelligence tools such as Power BI. 
 
 
 ---
@@ -116,10 +64,59 @@ erDiagram
         int product_id FK
         int quantity
     }
+
 ```
+---
+
+### The Entity Relationship Diagram (ERD)
+- Data Model Above is used to support Business Intelligence tools such as Power BI. 
+
+---
 
 
-----
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/bcdc2bf0df9c27792507f0ffe920d400abd7c488/images/v8/dim_customer_v8.png)
+
+---
+
+
+## Dimensions Tables
+
+- Attributes of Customer Records
+
+Below is an Example of a Customer Dimension Table; The outer component of the Star Schema, as shown below the Excel Model.
+
+
+### Dimension Table stores Related Attributes in One Table
+
+- Customer ID, Contact Name, Email Address
+
+---
+
+![excel star schema](https://github.com/peter28data/data-modeling/blob/99ccf5c7b015c920c09c9f97b5b7b56ce08aaa3a/images/v7/excel_star_schema_v7.png)
+
+---
+
+## 📌 Identify Facts
+
+### Granularity
+
+The Customer ID, Product ID, and City ID are the lowest points of Granularity that serve as Identifiers for Business Insights such as Customer Sentiment Analysis. 
+
+- Keys & KPI's
+
+
+---
+
+
+
+
+![Fact Table](https://github.com/peter28data/data-modeling/blob/5a9e3f987bcda82cf6775245b561ff5416a15932/images/v5/excel_fact_field_dictionary_v5.png)
+
+
+
+![star schema data model](https://github.com/peter28data/data-modeling/blob/bcdc2bf0df9c27792507f0ffe920d400abd7c488/images/v8/star_schema_v8.png)
+
+---
 
 ## 🤝 Done!  Thank you for Reading
 For Project in SQL, click below:
