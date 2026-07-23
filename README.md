@@ -74,7 +74,7 @@ erDiagram
 ---
 
 
-![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/bcdc2bf0df9c27792507f0ffe920d400abd7c488/images/v8/dim_customer_v8.png)
+![excel data model customer dim](https://github.com/peter28data/data-modeling/blob/57a9c5add975cb8c4c06d82177573b7eeefc756f/images/dim_customer_v9.png)
 
 ---
 
