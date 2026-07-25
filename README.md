@@ -69,6 +69,7 @@ erDiagram
 ---
 
 ### The Entity Relationship Diagram (ERD)
+
 - Data Model Above is used to support Business Intelligence tools such as Power BI. 
 
 ---
