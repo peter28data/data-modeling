@@ -14,6 +14,7 @@ This project demonstrades Data Modeling to Organize Data Tables such as Customer
 
 
 
+
 ---
 
 ![star schema data model](https://github.com/peter28data/data-modeling/blob/bcdc2bf0df9c27792507f0ffe920d400abd7c488/images/v8/star_schema_v8.png)
